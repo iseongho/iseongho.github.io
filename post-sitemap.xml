@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://iseongho.github.io/posts/git-subtree/</loc>
+        <lastmod>2018-08-19T08:33:48.503Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://iseongho.github.io/posts/node-template-engine-pug/</loc>
         <lastmod>2018-08-18T14:05:02.458Z</lastmod>
         <changefreq>weekly</changefreq>
