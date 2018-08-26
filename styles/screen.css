@@ -1391,6 +1391,9 @@ pre .chunk {
   min-width: 25px;
   font-size: 1.1rem;
 }
+.code .line a {
+  color: #e6db74;
+}
 @-moz-keyframes slide {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
