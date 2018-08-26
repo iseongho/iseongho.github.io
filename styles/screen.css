@@ -672,9 +672,6 @@ main article.full h1#article-title {
   font-weight: bold;
   font-size: 4rem;
 }
-main article.full a {
-  text-decoration: underline;
-}
 main article.full a:hover {
   color: #1d9cf7;
 }
