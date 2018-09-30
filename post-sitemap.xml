@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://iseongho.github.io/posts/react-optimizing-performance/</loc>
+        <lastmod>2018-09-30T12:45:34.827Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://iseongho.github.io/posts/cron-expression/</loc>
         <lastmod>2018-09-01T12:41:39.950Z</lastmod>
         <changefreq>weekly</changefreq>
