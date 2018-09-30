@@ -1,38 +1,58 @@
-<!DOCTYPE html><html lang="en-us"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>Hexo SEO - 하루 만에 검색 엔진 최적화 시키기 | Seongho's Dev Story</title><meta name="description" content="Hexo로 만들어진 블로그를 빠르게 검색 엔진 최적화시키는 방법"><meta name="generator" content="Seongho's Dev Story"><meta name="author" content="Seongho Lee"><meta name="keywords" content="iseongho, front end, back end, developer"><meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0"><link rel="canonical" href="https://iseongho.github.io/posts/hexo-seo/"><link rel="stylesheet" type="text/css" href="/styles/screen.css"><link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/images/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png"><link rel="icon" type="image/png" sizes="192x192" href="/images/favicon-192x192.png"><meta name="msapplication-TileColor" content="#121315"><meta name="msapplication-TileImage" content="/images/mstile-144x144.png"></head><body itemscope="" itemtype="https://schema.org/WebPage"><header itemscope="" itemtype="https://schema.org/WPHeader"><a href="/"><img src="/images/svdb.png" alt="Seongho's Dev Story" title="Seongho's Dev Story"></a><h1><a href="/" alt="Seongho's Dev Story" title="Seongho's Dev Story" itemprop="headline">Seongho's Dev Story</a></h1><p itemprop="description">이성호의 개발 이야기</p><nav itemscope="" itemtype="https://schema.org/SiteNavigationElement"><ul><li itemprop="name"><a href="/" alt="Home" title="Home" itemprop="url">Home</a></li></ul></nav><div class="space"></div></header><main itemscope="" itemtype="https://schema.org/Blog"><article class="full"><h1 id="article-title" itemprop="headline">Hexo SEO - 하루 만에 검색 엔진 최적화 시키기</h1><span class="post-meta">Published on<time itemprop="datePublished" datetime="2018-08-26T08:27:39.000Z"> 일요일, 8월 26일 2018 at 17:27</time><br>Last updated on<time itemprop="dateModified" datetime="2018-08-26T08:27:39.000Z"> 일요일, 8월 26일 2018 at 19:13</time></span><p>Hexo와 같이 개인이 직접 만들어 운영하는 블로그는 직접 검색 엔진 최적화(영어: search engine optimization, SEO)를 시켜줘야 합니다. 나름 시간을 많이 투자해야 하는 작업인데 다행히도 Hexo는 SEO와 관련된 플러그인이 많이 있습니다. 해당 글에선 그 플러그인들을 이용한 SEO에 대해 다뤄보겠습니다.</p>
+<!DOCTYPE html><html lang="en-us"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>Hexo SEO - 하루 만에 검색 엔진 최적화 시키기 | Seongho's Dev Story</title><meta name="description" content="Hexo로 만들어진 블로그를 빠르게 검색 엔진 최적화시키는 방법"><meta name="generator" content="Seongho's Dev Story"><meta name="author" content="Seongho Lee"><meta name="keywords" content="iseongho, front end, back end, developer"><meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0"><link rel="canonical" href="https://iseongho.github.io/posts/hexo-seo/"><link rel="stylesheet" type="text/css" href="/styles/screen.css"><link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/images/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png"><link rel="icon" type="image/png" sizes="192x192" href="/images/favicon-192x192.png"><meta name="msapplication-TileColor" content="#121315"><meta name="msapplication-TileImage" content="/images/mstile-144x144.png"><link rel="stylesheet" href="/css/prism-xonokai.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body itemscope="" itemtype="https://schema.org/WebPage"><header itemscope="" itemtype="https://schema.org/WPHeader"><a href="/"><img src="/images/svdb.png" alt="Seongho's Dev Story" title="Seongho's Dev Story"></a><h1><a href="/" alt="Seongho's Dev Story" title="Seongho's Dev Story" itemprop="headline">Seongho's Dev Story</a></h1><p itemprop="description">이성호의 개발 이야기</p><nav itemscope="" itemtype="https://schema.org/SiteNavigationElement"><ul><li itemprop="name"><a href="/" alt="Home" title="Home" itemprop="url">Home</a></li></ul></nav><div class="space"></div></header><main itemscope="" itemtype="https://schema.org/Blog"><article class="full"><h1 id="article-title" itemprop="headline">Hexo SEO - 하루 만에 검색 엔진 최적화 시키기</h1><span class="post-meta">Published on<time itemprop="datePublished" datetime="2018-08-26T08:27:39.000Z"> 일요일, 8월 26일 2018 at 17:27</time><br>Last updated on<time itemprop="dateModified" datetime="2018-08-26T08:27:39.000Z"> 일요일, 8월 26일 2018 at 19:13</time></span><p>Hexo와 같이 개인이 직접 만들어 운영하는 블로그는 직접 검색 엔진 최적화(영어: search engine optimization, SEO)를 시켜줘야 합니다. 나름 시간을 많이 투자해야 하는 작업인데 다행히도 Hexo는 SEO와 관련된 플러그인이 많이 있습니다. 해당 글에선 그 플러그인들을 이용한 SEO에 대해 다뤄보겠습니다.</p>
 <h1 id="플러그인-설치-및-사용"><a href="#플러그인-설치-및-사용" class="headerlink" title="플러그인 설치 및 사용"></a>플러그인 설치 및 사용</h1><h2 id="hexo-auto-canonical"><a href="#hexo-auto-canonical" class="headerlink" title="hexo-auto-canonical"></a><a href="https://github.com/HyunSeob/hexo-auto-canonical" rel="external nofollow noopener noreferrer" target="_blank">hexo-auto-canonical</a></h2><p>자동으로 표준 링크를 생성해줍니다.</p>
 <p>설치</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-auto-canonical</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-console"><code class="language-console">npm install --save hexo-auto-canonical
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>사용</p>
 <p>HTML의 HEAD 태그 안에 넣어줍니다.</p>
 <p>ejs인 경우</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- autoCanonical(config, page) %&gt;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token operator">&lt;</span><span class="token operator">%</span><span class="token operator">-</span> <span class="token function">autoCanonical</span><span class="token punctuation">(</span>config<span class="token punctuation">,</span> page<span class="token punctuation">)</span> <span class="token operator">%</span><span class="token operator">></span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>jade인 경우</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">| !&#123; autoCanonical(config, page) &#125;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token operator">|</span> <span class="token operator">!</span><span class="token punctuation">{</span> <span class="token function">autoCanonical</span><span class="token punctuation">(</span>config<span class="token punctuation">,</span> page<span class="token punctuation">)</span> <span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h2 id="hexo-autonofollow"><a href="#hexo-autonofollow" class="headerlink" title="hexo-autonofollow"></a><a href="https://github.com/liuzc/hexo-autonofollow" rel="external nofollow noopener noreferrer" target="_blank">hexo-autonofollow</a></h2><p>블로그의 포스들에 있는 외부 링크들에 자동으로 nofollow 속성을 추가해줍니다.</p>
 <p>설치</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-autonofollow --save</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-console"><code class="language-console">npm install hexo-autonofollow --save
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>사용</p>
 <p>_config.yml 파일에 추가합니다.</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">nofollow:</span></span><br><span class="line"><span class="attr">    enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    exclude:</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">exclude1.com</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">exclude2.com</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-yml"><code class="language-yml">nofollow:
+    enable: true
+    exclude:
+    - exclude1.com
+    - exclude2.com
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <ul>
 <li>enable - 플러그인을 사용합니다. 기본값은 false입니다.</li>
 <li>exclude - 들어오지 못하게 할 hostname</li>
 </ul>
 <h2 id="hexo-generator-feed"><a href="#hexo-generator-feed" class="headerlink" title="hexo-generator-feed"></a><a href="https://github.com/hexojs/hexo-generator-feed" rel="external nofollow noopener noreferrer" target="_blank">hexo-generator-feed</a></h2><p>자동으로 Atom 1.0 또는 RSS 2.0 피드를 생성해줍니다.</p>
 <p>설치</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-console"><code class="language-console">npm install hexo-generator-feed --save
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>사용</p>
 <p>_config.yml 파일에 추가합니다. 피드의 종류를 정할 수 있는데 네이버는 Atom을 지원하지 않음으로 RSS2를 권장합니다.</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">rss2</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">rss2.xml</span></span><br><span class="line"><span class="attr">  limit:</span> <span class="number">20</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-yml"><code class="language-yml">feed:
+  type: rss2
+  path: rss2.xml
+  limit: 20
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <ul>
 <li>type - 피드의 종류 (atom/rss2)</li>
 <li>path - 피드가 생성될 경로 (Default: atom.xml/rss2.xml)</li>
 <li>limit - 최신 포스트의 개수 설정 (0 또는 false 입력 시 모든 포스트)</li>
 </ul>
 <h2 id="hexo-generator-seo-friendly-sitemap"><a href="#hexo-generator-seo-friendly-sitemap" class="headerlink" title="hexo-generator-seo-friendly-sitemap"></a><a href="https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap" rel="external nofollow noopener noreferrer" target="_blank">hexo-generator-seo-friendly-sitemap</a></h2><p>설치</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-seo-friendly-sitemap --save</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-console"><code class="language-console">npm install hexo-generator-seo-friendly-sitemap --save
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>사용</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sitemap:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">sitemap.xml</span></span><br><span class="line"><span class="attr">  tag:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  category:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-yml"><code class="language-yml">sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <ul>
 <li>path - sitemap이 생성될 경로</li>
 <li>tag - sitemap에 tag 포함 여부</li>
@@ -40,12 +60,21 @@
 </ul>
 <h2 id="hexo-generator-robotstxt"><a href="#hexo-generator-robotstxt" class="headerlink" title="hexo-generator-robotstxt"></a><a href="https://github.com/leecrossley/hexo-generator-robotstxt" rel="external nofollow noopener noreferrer" target="_blank">hexo-generator-robotstxt</a></h2><p>자동으로 robots.txt 파일을 생성해줍니다.</p>
 <p>설치</p>
-<figure class="highlight console"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-robotstxt --save</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-console"><code class="language-console">npm install hexo-generator-robotstxt --save
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>사용</p>
 <p>_config.yml 파일에 추가합니다.</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">robotstxt:</span></span><br><span class="line"><span class="attr">  useragent:</span> <span class="string">"*"</span></span><br><span class="line"><span class="attr">  allow:</span></span><br><span class="line"><span class="bullet">    -</span> <span class="string">/</span></span><br><span class="line"><span class="attr">  sitemap:</span> <span class="attr">https://username.github.io/sitemap.xml</span></span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-yml"><code class="language-yml">robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://username.github.io/sitemap.xml
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>결과</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: /</span><br><span class="line">Sitemap: https://username.github.io/sitemap.xml</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-html"><code class="language-html">User-agent: *
+Allow: /
+Sitemap: https://username.github.io/sitemap.xml
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <h1 id="검색-엔진에-등록하기"><a href="#검색-엔진에-등록하기" class="headerlink" title="검색 엔진에 등록하기"></a>검색 엔진에 등록하기</h1><p>SEO 초기 세팅이 끝났으니 그걸 검색 엔진들에게 알려줘야 합니다! 간혹 사이트의 소유권 인증하라고 제공받은 파일을 사이트에 올리라고 하는데 public 폴더 안에 넣어주시고 <code>hexo deploy</code>해주시면 됩니다!</p>
 <h2 id="구글"><a href="#구글" class="headerlink" title="구글"></a>구글</h2><p><a href="https://www.google.com/webmasters/tools/home?hl=ko" rel="external nofollow noopener noreferrer" target="_blank">구글 웹마스터 도구</a>에서 구글의 SEO를 관리할 수 있습니다.</p>
 <ul>

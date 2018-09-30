@@ -1075,6 +1075,21 @@ dl,
 table {
   margin: 20px 0;
 }
+table {
+  border-radius: 0.3em;
+  border: 1px solid #ccc;
+}
+table > thead > tr > th {
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background: #eee;
+}
+table > tbody > tr > td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
 ol ol,
 ul ul,
 ul ol,
@@ -1207,13 +1222,18 @@ figure.highlight figcaption a {
   margin-left: 0.3em;
 }
 figure.highlight table {
+  border: none;
   margin: 0;
 }
 figure.highlight table > tbody > tr > td {
   padding: 0;
   background: #fafafa;
 }
+figure.highlight table > tbody > tr > td.code {
+  border: none;
+}
 figure.highlight table > tbody > tr > td.gutter {
+  border: none;
   background-color: #222;
   max-width: 40px;
   text-align: right;
