@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://iseongho.github.io/posts/js-event-loop/</loc>
+        <lastmod>2019-03-19T14:32:07.797Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://iseongho.github.io/posts/http-vs-https-and-ssl/</loc>
         <lastmod>2019-03-01T11:34:27.506Z</lastmod>
         <changefreq>weekly</changefreq>
