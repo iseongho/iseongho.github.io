@@ -8,11 +8,11 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>이성호의 개발 이야기</description>
-    <pubDate>Tue, 19 Mar 2019 14:32:07 GMT</pubDate>
+    <pubDate>Tue, 19 Mar 2019 14:44:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>자바스크립트의 특징인 이벤트 루프 이해하기</title>
+      <title>자바스크립트의 특징 이벤트 루프 이해하기</title>
       <link>https://iseongho.github.io/posts/js-event-loop/</link>
       <guid>https://iseongho.github.io/posts/js-event-loop/</guid>
       <pubDate>Sun, 17 Mar 2019 12:25:48 GMT</pubDate>
