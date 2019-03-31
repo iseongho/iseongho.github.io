@@ -7,8 +7,16 @@
     </url>
 
     <url>
+        <loc>https://iseongho.github.io/posts/nohup/</loc>
+        <lastmod>2019-03-31T06:38:43.844Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://iseongho.github.io/posts/js-event-loop/</loc>
-        <lastmod>2019-03-19T14:44:07.260Z</lastmod>
+        <lastmod>2019-03-31T05:58:36.771Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
