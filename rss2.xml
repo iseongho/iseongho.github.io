@@ -8,8 +8,27 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>이성호의 개발 이야기</description>
-    <pubDate>Sun, 02 Jun 2019 07:45:20 GMT</pubDate>
+    <pubDate>Sun, 02 Jun 2019 08:11:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>(Linux) 백그라운드 작업 nohup 사용법</title>
+      <link>https://iseongho.github.io/posts/nohup/</link>
+      <guid>https://iseongho.github.io/posts/nohup/</guid>
+      <pubDate>Sun, 31 Mar 2019 06:01:22 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;리눅스에서 24시간으로 작동해야 하는 파이썬(Python) 프로그램이 있습니다. 이런 경우에 &lt;code&gt;python filename.py&lt;/code&gt;을 치고 터미널을 켜둔 상태에서 24시간을 두면 됩니다. 하지만 현실적으로 우리는 터미널을 항상 
+        
+      
+      </description>
+      
+      <content:encoded><![CDATA[<p>리눅스에서 24시간으로 작동해야 하는 파이썬(Python) 프로그램이 있습니다. 이런 경우에 <code>python filename.py</code>을 치고 터미널을 켜둔 상태에서 24시간을 두면 됩니다. 하지만 현실적으로 우리는 터미널을 항상 켜둘 수 없습니다. 백그라운드 상태에서 돌아가야 하고 터미널 세션을 종료했다 하더라도 계속해서 돌아가는 게 이상적입니다. 이것을 가능하게 도와주는 것이 nohup(노헙)입니다.</p><h2 id="nohup과-amp-의-차이"><a href="#nohup과-amp-의-차이" class="headerlink" title="nohup과 &amp;의 차이"></a>nohup과 &amp;의 차이</h2><p>리눅스에서 백그라운드로 프로그램을 실행하는 방법 중 또 다른 하나로 명령어 뒤에 &amp;을 붙이는 방법이 있습니다.</p><pre class="line-numbers language-terminal"><code class="language-terminal">python filename.py &<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>위의 방법으로 실행 시 백그라운드로 작동하지만 터미널 세션을 종료하면 프로그램이 종료됩니다.</p><p>반면에 nohup을 사용하면 앞에서 말했듯이 터미널을 종료해도 데몬 형태로 계속해서 작동합니다.</p><h2 id="사용법"><a href="#사용법" class="headerlink" title="사용법"></a>사용법</h2><h3 id="데몬-형태-실행-방법"><a href="#데몬-형태-실행-방법" class="headerlink" title="데몬 형태 실행 방법"></a>데몬 형태 실행 방법</h3><pre class="line-numbers language-terminal"><code class="language-terminal">nohup python filename.py &<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>터미널에서 위의 명령어를 입력하기만 하면 데몬 형태의 프로세스로 프로그램이 돌아갑니다. 그리고 nohup.out이라는 파일이 생기며 print문이 어느 정도 쌓이면 해당 파일에 입력이 됩니다.</p><p>실시간으로 찍히는 print문을 입력하고 싶다면 아래의 <code>-u</code> 명령어를 추가하시면 됩니다.</p><pre class="line-numbers language-terminal"><code class="language-terminal">nohup python -u filename.py &<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="로그보는-방법"><a href="#로그보는-방법" class="headerlink" title="로그보는 방법"></a>로그보는 방법</h3><pre class="line-numbers language-terminal"><code class="language-terminal">tail -f nohup.out<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><code>-u</code>를 입력하셨다면 실시간으로 로그가 출력되는게 보이실겁니다. 하지 않으셨다면 어느 정도 쌓이고 보이실 겁니다.</p><h3 id="종료"><a href="#종료" class="headerlink" title="종료"></a>종료</h3><pre class="line-numbers language-terminal"><code class="language-terminal">ps -ef | grep filename.py<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>위 명령어를 치시면 데몬 형태로 실행 중인 프로세스들이 뜹니다. 두 번째 칸에 뜨는게 프로세스 아이디(Process ID)입니다.</p><pre class="line-numbers language-terminal"><code class="language-terminal">kill 프로세스 아이디<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>위 명령어로 종료시켜줍니다.</p><h2 id="주의사항"><a href="#주의사항" class="headerlink" title="주의사항"></a>주의사항</h2><p>nohup으로 작업할 파일은 755 이상의 권한이 필요합니다.</p><pre class="line-numbers language-terminal"><code class="language-terminal">chmod 755 shell.sh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content:encoded>
+      
+      <comments>https://iseongho.github.io/posts/nohup/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>자바스크립트 특징 - 이벤트 루프</title>
